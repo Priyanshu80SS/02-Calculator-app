@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  */
+.container {
+  max-width: 250px;
+  height: 430px;
+  background-color: azure;
+  border: 2px solid rgba(0, 225, 255, 0.34);
+  margin: 50px auto;
+
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+  background-color: azure;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+
+  box-shadow: rgb(38, 57, 77) 1px 11px 9px -10px;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+/* .numberBoxSection {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px; */
+/* } */
+
+/* .number {
+  background-color: rgba(128, 128, 128, 0.405);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
+
+button {
+  border: none;
+  outline: none;
+  background-color: rgba(128, 128, 128, 0.405);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.numberBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
